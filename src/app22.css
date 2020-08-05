@@ -1,0 +1,19 @@
+#app22 {
+}
+#app22 > .tab-bar ol {
+    display: flex;
+}
+#app22 > .tab-bar ol li {
+    border: 1px solid gray;
+    width: 50%;
+}
+#app22 > .tab-content ol li {
+    display: none;
+}
+#app22 > .tab-content ol li.active {
+    display: block;
+}
+#app22 > .tab-bar ol li.selected {
+    background: yellow;
+    color: red;
+}
